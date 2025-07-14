@@ -86,7 +86,6 @@ const ViewAttendance = () => {
         {/* Loading State */}
         {loading ? (
           <div className="modern-state-bg min-h-[220px]">
-            <span className="modern-illustration" role="img" aria-label="Loading">⏳</span>
             <div className="spinner mb-4"></div>
             <span className="text-violet-400 text-lg font-semibold mt-2">Loading attendance records...</span>
           </div>
