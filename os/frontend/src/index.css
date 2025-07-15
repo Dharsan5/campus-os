@@ -170,3 +170,8 @@ body {
   .modern-input { font-size: 0.95rem; padding: 0.45rem 1rem; }
   .modern-badge { font-size: 0.85em; padding: 0.28em 0.8em; }
 }
+
+.modern-state-bg mt-4{
+  .glass-card {padding: 1rem 0.5rem;border-radius: 0px;}
+  .glass-card:hover
+}

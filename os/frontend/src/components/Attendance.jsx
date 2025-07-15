@@ -125,11 +125,11 @@ const Attendance = () => {
   return (
     <div className="flex justify-center items-center min-h-screen gradient-bg p-4">
       <div className="glass-card w-full max-w-3xl flex flex-col gap-6 items-center p-6 sm:p-8">
-        <h2 className="text-3xl font-bold text-white mb-4">📍 Attendance Portal</h2>
+        <h2 className="text-3xl font-bold text-white mb-4"> Attendance Portal</h2>
 
         {loading && (
           <div className="modern-state-bg w-full">
-            <span className="modern-illustration">⏳</span>
+            <span className="modern-illustration"></span>
             <div className="spinner mb-3"></div>
             <p className="text-violet-300 font-medium">Detecting location...</p>
           </div>

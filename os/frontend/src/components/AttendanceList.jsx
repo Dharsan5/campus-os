@@ -33,11 +33,11 @@ const AttendanceList = () => {
 
   return (
     <div className="glass-card w-full max-w-5xl mx-auto text-white mt-8">
-      <h2 className="text-2xl font-bold text-violet-300 mb-4 flex items-center gap-2">📋 Attendance List</h2>
+      <h2 className="text-2xl font-bold text-violet-300 mb-4 flex items-center gap-2"> Attendance List</h2>
       <div className="flex flex-col sm:flex-row justify-between items-center mb-4 gap-4 w-full">
         <input
           type="text"
-          placeholder="🔍 Search by ID or Status"
+          placeholder=" Search by ID or Status"
           value={search}
           onChange={handleSearch}
           className="modern-input w-full sm:w-2/3"
@@ -45,7 +45,6 @@ const AttendanceList = () => {
       </div>
       {loading ? (
         <div className="modern-state-bg min-h-[180px]">
-          <span className="modern-illustration" role="img" aria-label="Loading">⏳</span>
           <div className="spinner mb-4"></div>
           <span className="text-violet-400 text-lg font-semibold mt-2">Loading attendance records...</span>
         </div>
@@ -54,11 +53,11 @@ const AttendanceList = () => {
           <table className="modern-table min-w-[600px] sm:min-w-full text-xs sm:text-sm text-white">
             <thead className="bg-[#3a3a4f] sticky top-0 z-10">
               <tr>
-                <th className="px-6 py-3 text-left font-medium">👤 User ID</th>
-                <th className="px-6 py-3 text-left font-medium">📍 Latitude</th>
-                <th className="px-6 py-3 text-left font-medium">📍 Longitude</th>
-                <th className="px-6 py-3 text-left font-medium">✅ Status</th>
-                <th className="px-6 py-3 text-left font-medium">🕒 Date</th>
+                <th className="px-6 py-3 text-left font-medium"> User ID</th>
+                <th className="px-6 py-3 text-left font-medium"> Latitude</th>
+                <th className="px-6 py-3 text-left font-medium"> Longitude</th>
+                <th className="px-6 py-3 text-left font-medium"> Status</th>
+                <th className="px-6 py-3 text-left font-medium"> Date</th>
               </tr>
             </thead>
             <tbody className="divide-y divide-gray-600">
@@ -92,7 +91,6 @@ const AttendanceList = () => {
                 <tr>
                   <td colSpan="5" className="text-center py-6 text-gray-400 text-xs sm:text-base">
                     <div className="modern-state-bg">
-                      <span className="modern-illustration" role="img" aria-label="No records">🗒️</span>
                       <span className="font-semibold text-violet-500">No attendance records found.</span>
                       <span className="text-xs text-gray-500">Try adjusting your search.</span>
                     </div>
